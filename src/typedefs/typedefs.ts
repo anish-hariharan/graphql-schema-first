@@ -9,6 +9,7 @@ type FindUser {
 
 type Query {
     find : FindUser
+    test : String!
 }
 
 `

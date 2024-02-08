@@ -1,7 +1,7 @@
 import * as express from "express"
 import { graphqlHTTP  } from "express-graphql"
 import { buildSchema  } from "graphql"
-import { root } from "./resolver /resolvers"
+import { root } from "./resolver/resolvers"
 import typedefs from "./typedefs/typedefs"
 
 const schema = buildSchema (typedefs)
